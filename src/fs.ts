@@ -1,4 +1,4 @@
-import { LanguageName, Source } from '@cucumber/language-service'
+import { LanguageName, Source } from '@binhtran432k/cucumber-language-service'
 
 import { extname, Files } from './Files.js'
 

@@ -15,7 +15,7 @@ import {
   ParserAdapter,
   semanticTokenTypes,
   Suggestion,
-} from '@cucumber/language-service'
+} from '@binhtran432k/cucumber-language-service'
 import {
   CodeAction,
   CodeActionKind,

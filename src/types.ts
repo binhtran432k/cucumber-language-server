@@ -1,4 +1,4 @@
-import { LanguageName } from '@cucumber/language-service'
+import { LanguageName } from '@binhtran432k/cucumber-language-service'
 
 export type ParameterTypeMeta = { name: string; regexp: string }
 

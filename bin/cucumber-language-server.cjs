@@ -6,7 +6,9 @@ const { NodeFiles } = require('../dist/cjs/src/node/NodeFiles')
 const path = require('path')
 const { version } = require('../dist/cjs/src/version')
 
-const wasmBasePath = path.resolve(`${__dirname}/../node_modules/@cucumber/language-service/dist`)
+const wasmBasePath = path.resolve(
+  `${__dirname}/../node_modules/@binhtran432k/cucumber-language-service/dist`
+)
 const { connection } = startStandaloneServer(wasmBasePath, (rootUri) => new NodeFiles(rootUri))
 
 // Don't die on unhandled Promise rejections
